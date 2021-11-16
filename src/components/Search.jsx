@@ -29,7 +29,7 @@ export function Search() {
               history("/?search=" + value);
           }}
         />
-          <FaSearch color="black" size={20} className={styles.searchButton} />
+          <FaSearch color="black" size={15} className={styles.searchButton} />
       </div>
     </form>
   );

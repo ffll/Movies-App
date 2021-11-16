@@ -20,16 +20,16 @@
 
 .searchInput {
     font-size: 1.2rem;
-    height: 35px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 40px;
     padding: 5px 30px 5px 10px;
-    border: 1px solid white;
+    border: 2px solid #dfdfdf;
+    padding: 0 11px;
+    font-size: 14px;
 }
 
 .searchInput:focus,
 .searchButton:focus{
     outline: none;
-    border: 1px solid #f88ec2;
-    box-shadow: 0 0 5px #ebbed4;
-
+    border: 1px solid #71ccd5;
 }

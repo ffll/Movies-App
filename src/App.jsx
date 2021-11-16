@@ -9,13 +9,17 @@ export function App() {
     <Router>
       <header>
         <Link to="/">
-            <h1 className={styles.title}>Movies</h1>
+          <h1 className={styles.title}>.MOVIES</h1>
         </Link>
       </header>
       <main>
         <Routes>
-          <Route exact path='/' element={<LandingPage/>}></Route>
-          <Route exact path="/movies/:movieId" element={<MovieDetails/>}></Route>
+          <Route exact path="/" element={<LandingPage />}></Route>
+          <Route
+            exact
+            path="/movies/:movieId"
+            element={<MovieDetails />}
+          ></Route>
         </Routes>
       </main>
     </Router>
